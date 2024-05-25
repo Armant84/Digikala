@@ -1,0 +1,94 @@
+.interesting-to-read{
+    width: 90%;
+    height: 330px;
+    margin: 20px auto;
+    .interesting-to-read__1{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        fill: #19BFD3;
+        & p{
+            font-family: var(--fontfamily);
+            font-size: 16px;
+            padding-right: 20px;
+            font-weight: bold;
+        }
+        
+            & a{
+                width: 220px;
+                height: 25px;
+                text-decoration: none;
+
+                & span{
+                    display: flex;
+                    flex-flow: row wrap;
+                    font-family: var(--fontfamily);
+                    font-size: 12px;
+                    color: #19BFD3;
+                    padding-left: 20px;
+                    font-weight: bold;
+                    .flex{
+                        position: relative;
+                        width: 18px;
+                        height: 18px;
+                        & svg {
+                            position: absolute;
+                            top: -2px;
+                            left: 0;
+                            & path {
+                              transform: scale(0.87);
+                            }
+                          }
+                    }
+                }
+            }
+        
+        
+        
+    }
+    .interesting-to-read__2{
+        width: 100%;
+        height: 280px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 15px;
+        
+            .interesting-to-read__2__1{
+                
+                width: 24.2%;
+                height: 100%;
+                border: 1px solid #EFEFF0;
+                border-radius: 7px;
+                & a{
+                    text-decoration: none;
+                    .interesting-to-read__2__1__1{
+                        width: 100%;
+                        height: 73%;
+                        & img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                        
+                    }
+                    .interesting-to-read__2__1__2{
+                        width: 100%;
+                        height: 27%;
+                        padding-top: 10px;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        & p{
+                            font-family: var(--fontfamily);
+                            font-size: 14px;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        
+        
+    }
+}

@@ -1,0 +1,74 @@
+.bgimg{
+    width: 100%;
+    height: 64px;
+    background-image: url(/images/slider-a/header.svg), linear-gradient(to top, #ef4056, #ef394e);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 64px;
+    cursor: pointer;
+}
+.slider{
+    width: 100%;
+    height: 400px;
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+  
+      .swiper-slide .slider__2{
+        border-radius: unset;
+        outline: unset;
+        outline-offset: unset;
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+      }
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    width: 5px;
+    height: 5px;
+    transition: 250ms;
+}
+.swiper-pagination-bullet-active{
+    background-color: whitesmoke !important;
+    width: 16px !important;
+    border-radius: 4px !important;    
+}
+
+
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    outline: 1px solid lightgray;
+    border-radius: 50%;
+  }
+  .swiper-button-next, .swiper-rtl .swiper-button-prev{
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    outline: 1px solid lightgray;
+    border-radius: 50%;
+  }
+  .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    font-size: 13px;
+    color: gray;
+  }
+  .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    font-size: 13px;
+    color: gray;
+  }

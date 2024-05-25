@@ -1,0 +1,208 @@
+.amazing-supermarket{
+    width: 98%;
+    height: 110px;
+    background-color: #ECEEEE;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    & a{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        .amazing-supermarket__1{
+            width: 50%;
+            height: 100%;
+            padding-right: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            column-gap: 20px;
+            .amazing-supermarket__1__1{
+                width: 66px;
+                height: 62px;
+            }
+            .amazing-supermarket__1__2{
+                width: 250px;
+                height: 28px;
+                & img{
+                    width: 250px;
+                height: 28px;
+                }
+            }
+            .amazing-supermarket__1__3{
+                width: 106px;
+                height: 28px;
+                background-color: #029A49;
+                border-radius: 30px;
+                & p{
+                    font-family: var(--fontfamily);
+                    font-size: 15px;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 28px;
+                }
+            }
+        }
+        .amazing-supermarket__2{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            padding-left: 50px;
+            column-gap: 10px;
+            background-repeat: no-repeat;
+            background-image: url(../../images/amazing-supermarket/freshPattern.svg);
+            .amazing-supermarket__2__1{
+                width: 74px;
+                height: 74px;
+                background-color: white;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                & img{
+                    width: 58px;
+                    height: 58px;
+                    border-radius: 50%;
+                }
+                .reddiscount{
+                    width: 34px;
+                    height: 20px;
+                    background-color: #D32F2F;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    border-radius: 20px;
+                    & p{
+                        text-align: center;
+                        line-height: 18px;
+                        font-family: var(--Nazanin);
+                        font-size: 18px;
+                        color: white;
+                    }
+                }
+            }
+            .amazing-supermarket__2__2{
+                width: 144px;
+                height: 50px;
+                background-color: white;
+                border-radius: 40px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                column-gap: 10px;
+                & p{
+                    font-family: var(--fontfamily);
+                    font-size: 13px;
+                    font-weight: bold;
+                    color: #029a49;
+                }
+                & svg{
+                    & path{
+                        fill: #029a49;
+                        transform: scale(0.9);
+                    }
+                    
+                }
+            }
+            .future{
+                & p{
+                    color: #ef394e;
+                }
+                & svg{
+                    & path{
+                        fill: #ef394e;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+.amazing-future{
+    background-color: none;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(267.6deg, rgba(230, 18, 61, .1), hsla(0, 0%, 95%, 0));
+    background-size: 340px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    .amazing-future__1{
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: flex-start;
+        .amazing-future__1__1{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            justify-content: center;
+            column-gap: 0;
+            .image{
+                width: 100%;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+                justify-content: center;
+                column-gap: 20px;
+                & img{
+                    width: 206px;
+                    height: 28px;
+                }
+                .timer{
+                    width: 40%;
+                    display: flex;
+                    flex-flow: row wrap;
+                    align-items: center;
+                    justify-content: flex-start ;
+
+                  
+                  
+                    .timer__1{
+                        display: flex;
+                        flex-flow: row wrap;
+                        align-items: center;
+                        justify-content: center;    
+                        width: 28px;
+                        height: 28px;
+                        background-color: #fff;
+                        border-radius: 4px;
+                        margin: 0 5px;
+                    }
+                    
+                   }
+            }
+            .text{
+                width: 100%;
+                margin: 0 20px;
+                & span{
+                    text-align: right;
+                    font-size: 11px;
+                    font-weight: 700;
+                    line-height: 2.17;   
+                }
+            }
+        }
+        .amazing-future__1__2{
+            width: 50%;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+          
+        }
+    }
+    .amazing-future__2{
+        background-image: none;
+        background-image: url(../../images/amazing-supermarket/incrediblePattern.svg) !important;
+    }
+}

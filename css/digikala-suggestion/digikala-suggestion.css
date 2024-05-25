@@ -1,0 +1,88 @@
+.digikala-suggestion {
+  width: 100%;
+  height: 385px;
+  .digikala-suggestion__1 {
+    height: 65px;
+    width: 100%;
+    text-align: center;
+    font-family: var(--fontfamily);
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  .digikala-suggestion__2 {
+    width: 90%;
+    height: 310px;
+    border-radius: 15px;
+    border: 1px solid #efeff0;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    .digikala-suggestion__2__1 {
+      width: 14.285%;
+      height: 100%;
+      border-left: 1px solid #efeff0;
+      .digikala-suggestion__2__1__1 {
+        width: 100%;
+        height: 50%;
+        border-bottom: 1px solid #efeff0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 10px;
+        & a {
+          text-decoration: none;
+        }
+        & p {
+          font-family: var(--fontfamily);
+          font-size: 15px;
+          color: black;
+        }
+        .digikala-suggestion__circle__1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 84px;
+          height: 84px;
+          border-radius: 50%;
+          background-color: #f0f0f1;
+          & img {
+            width: 60px;
+            height: 60px;
+          }
+        }
+      }
+
+      .digikala-suggestion__2__1__2 {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 10px;
+        & a {
+          text-decoration: none;
+        }
+        & p {
+          font-family: var(--fontfamily);
+          font-size: 15px;
+          color: black;
+        }
+        .digikala-suggestion__circle__1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 84px;
+          height: 84px;
+          border-radius: 50%;
+          background-color: #f0f0f1;
+          & img {
+            width: 60px;
+            height: 60px;
+          }
+        }
+      }
+    }
+  }
+}

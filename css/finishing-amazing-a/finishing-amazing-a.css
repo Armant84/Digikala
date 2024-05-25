@@ -1,0 +1,287 @@
+.finishing-amazing-a {
+  width: 98%;
+  height: 511px;
+  border-radius: 5px;
+  border: 1px solid #e0e0e2;
+  margin: 20px auto;
+  
+  .finishing-amazing-a__1 {
+    width: 100%;
+    height: 50px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    align-items: end;
+    
+    & svg {
+      & path {
+        fill: #424750;
+      }
+    }
+    
+    & p {
+      font-family: var(--fontfamily);
+      color: #0c0c0c;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  
+  }
+  .custom__svg{
+    & svg{
+      & path{
+        fill: #ff009c;
+      }
+    }
+  }
+  .redline {
+    width: 70px;
+    height: 2px;
+    background-color: #ef394e;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  .finishing-amazing-a__2 {
+    .chosen-amazing-a {
+      width: 100%;
+      height: 440px;
+      background-color: #ffffff;
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+        height: 87%;
+        margin: auto 0;
+
+        border-left: 1px solid #f0f0f1;
+        & a {
+          display: block;
+          width: 95%;
+          height: 92%;
+          text-decoration: none;
+          .amazingslide1 {
+            width: 95%;
+            margin: 0 auto;
+            height: 92%;
+            padding-left: 10px;
+            .amazingslide1__1 {
+              width: 100%;
+              height: 30px;
+              & img {
+                width: 132px;
+                height: 100%;
+                object-fit: contain;
+                transform: scale(0.95);
+              }
+            }
+            .amazingslide1__2 {
+              width: 100%;
+              height: 150px;
+              margin: 0 auto;
+              & img {
+                width: 150px;
+                height: 150px;
+                margin: auto;
+              }
+            }
+            .amazingslide1__3 {
+              margin-top: 5px;
+              & h3 {
+                height: 52px;
+                font-weight: 700;
+                font-family: var(--fontfamily);
+                font-size: 12px;
+                color: #3f4064;
+              }
+            }
+            .a,
+            .amazingslide1__4 {
+              display: none;
+              margin-top: 10px;
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              column-gap: 5px;
+              & svg {
+                & path {
+                  fill: #1028ff;
+                  transform: scale(0.8);
+                }
+              }
+              & p {
+                font-family: var(--fontfamily);
+                font-size: 12px;
+                color: #62666d;
+              }
+            }
+            .amazingslide1__5 {
+              width: 100%;
+              height: 20px;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: center;
+              margin-top: 20px;
+              .reddiscount {
+                width: 34px;
+                height: 20px;
+                border-radius: 10px;
+                background-color: #d32f2f;
+                line-height: 20px;
+                & span {
+                  font-family: var(--Nazanin);
+                  color: #fefcfc;
+                  font-size: 15px;
+                  font-weight: bold;
+                }
+              }
+              .price-a {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                height: 20px;
+                & p {
+                  font-family: var(--Nazanin);
+                  font-size: 20px;
+                  font-weight: bold;
+                  color: #424750;
+                }
+                & svg {
+                  & path {
+                    fill: #424750;
+                    transform: scale(1.2);
+                  }
+                }
+              }
+            }
+            .amazingslide1__6 {
+              width: 100%;
+              margin-top: 5px;
+              display: flex;
+              flex-flow: row wrap;
+              align-items: center;
+              justify-content: flex-end;
+              & p {
+                margin-left: 17px;
+                padding-right: 75px;
+                font-family: var(--Nazanin);
+                color: #c0c2c5;
+                text-decoration: line-through;
+              }
+            }
+            .amazingslide1__7 {
+              width: 100%;
+              height: 5px;
+              display: flex;
+              flex-direction: row;
+              margin-top: 5px;
+              .amazingslide1__7__1 {
+                width: 4%;
+                height: 100%;
+                background-color: #f0f0f1;
+                opacity: 0;
+                border-radius: 5px;
+              }
+              .amazingslide1__7__2 {
+                width: 96%;
+                height: 100%;
+                opacity: 0;
+                background-color: #ef394e;
+                border-radius: 5px;
+              }
+              .fa71 {
+                width: 33%;
+              }
+              .fa72 {
+                width: 77%;
+              }
+            }
+            .amazingslide1__8 {
+              width: 100%;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              margin-top: 10px;
+              .amazingslide1__8__1 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                column-gap: 5px;
+                & span {
+                  opacity: 0;
+                  font-family: var(--Nazanin);
+                  font-size: 16px;
+                  color: #ef394e;
+                }
+                & p {
+                  opacity: 0;
+                  font-family: var(--fontfamily);
+                  font-size: 11px;
+                  color: #81858b;
+                }
+              }
+              .amazingslide1__8__2 {
+                & p {
+                  font-family: var(--Nazanin);
+                  font-size: 16px;
+                  font-weight: bold;
+                  color: #ef394e;
+                }
+              }
+            }
+            .product2-a {
+              opacity: 0;
+            }
+          }
+        }
+      }
+      .myChosenamazing1 {
+        display: block;
+        .promos,
+        .promos2 {
+          background-color: #ffffff;
+          width: 100%;
+          height: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          transform: scale(1.3);
+          & img {
+            width: 100%;
+            height: 50%;
+            object-fit: contain;
+          }
+        }
+        .promos {
+          align-items: flex-end;
+          padding-bottom: 40px;
+        }
+      }
+      .fslide1 {
+        .amazingslide1__4 {
+          & p {
+            color: #ef394e !important;
+            font-size: 11px !important;
+          }
+        }
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

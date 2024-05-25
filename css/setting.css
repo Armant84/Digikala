@@ -1,0 +1,38 @@
+html, body {
+  direction: rtl;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a,h1,h2,h3,h4,h5,div,p,span{
+  font-family: IranYekan;
+}
+a{
+  text-decoration: none;
+}
+:root{
+  --fontfamily:IranYekan;
+  --Nazanin:Nazanin;
+}
+@font-face {
+  font-family: IranYekan;
+  src: url("../fonts/IRANYekanWeb.ttf");
+  src: url("../fonts/IRANYekanWeb.eot");
+  src: url("../fonts/IRANYekanWeb.woff");
+  src: url("../fonts/IRANYekanWeb.woff2");
+}
+@font-face{
+  font-family: Nazanin;
+  src: url("../fonts/nazanin/BNazanin.eot");
+  src: url("../fonts/nazanin/BNazanin.ttf");
+  src: url("../fonts/nazanin/BNazanin.woff");
+  src: url("../fonts/nazanin/BNazanin.woff2");
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

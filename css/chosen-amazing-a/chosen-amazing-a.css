@@ -1,0 +1,212 @@
+.chosen-amazing-a {
+  width: 100%;
+  height: 440px;
+  background-color: #ef3c51;
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    height: 87%;
+    margin: auto 0;
+    & a {
+      display: block;
+      width: 95%;
+      height: 92%;
+      text-decoration: none;
+      .amazingslide1 {
+        width: 95%;
+        margin: 0 auto;
+        height: 92%;
+        .amazingslide1__1 {
+          width: 100%;
+          height: 30px;
+          & img {
+            width: 132px;
+            height: 100%;
+            object-fit: contain;
+            transform: scale(0.95);
+          }
+        }
+        .amazingslide1__2 {
+          width: 100%;
+          height: 150px;
+          margin: 0 auto;
+          & img {
+            width: 150px;
+            height: 150px;
+            margin: auto;
+          }
+        }
+        .amazingslide1__3 {
+          margin-top: 5px;
+          & h3 {
+            font-weight: 700;
+            font-family: var(--fontfamily);
+            font-size: 12px;
+            color: #3f4064;
+          }
+        }
+        .a,
+        .amazingslide1__4 {
+          margin-top: 10px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          column-gap: 5px;
+          & svg {
+            & path {
+              fill: #d86b00;
+              transform: scale(0.8);
+            }
+          }
+          & p {
+            font-family: var(--fontfamily);
+            font-size: 12px;
+            color: #62666d;
+          }
+        }
+        .amazingslide1__5 {
+          width: 100%;
+          height: 20px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 20px;
+          .reddiscount {
+            width: 34px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: #d32f2f;
+            line-height: 20px;
+            & span {
+              font-family: var(--Nazanin);
+              color: #fefcfc;
+              font-size: 15px;
+              font-weight: bold;
+            }
+          }
+          .price-a {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 20px;
+            & p {
+              font-family: var(--Nazanin);
+              font-size: 20px;
+              font-weight: bold;
+              color: #424750;
+            }
+            & svg {
+              & path {
+                fill: #424750;
+                transform: scale(1.2);
+              }
+            }
+          }
+        }
+        .amazingslide1__6 {
+          width: 100%;
+          margin-top: 5px;
+          & p {
+            padding-right: 85px;
+            font-family: var(--Nazanin);
+            color: #c0c2c5;
+            text-decoration: line-through;
+          }
+        }
+        .amazingslide1__7 {
+          width: 100%;
+          height: 5px;
+          display: flex;
+          flex-direction: row;
+          margin-top: 5px;
+          .amazingslide1__7__1 {
+            width: 67%;
+            height: 100%;
+            background-color: #f0f0f1;
+            border-radius: 5px;
+          }
+          .amazingslide1__7__2 {
+            width: 33%;
+            height: 100%;
+            background-color: #ef394e;
+            border-radius: 5px;
+          }
+        }
+        .amazingslide1__8 {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-top: 10px;
+          .amazingslide1__8__1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            column-gap: 5px;
+            & span {
+              font-family: var(--Nazanin);
+              font-size: 16px;
+              color: #ef394e;
+            }
+            & p {
+              font-family: var(--fontfamily);
+              font-size: 11px;
+              color: #81858b;
+            }
+          }
+          .amazingslide1__8__2 {
+            & p {
+              font-family: var(--Nazanin);
+              font-size: 16px;
+              font-weight: bold;
+              color: #ef394e;
+            }
+          }
+        }
+        .product2-a {
+          opacity: 0;
+        }
+      }
+    }
+  }
+  .myChosenamazing1 {
+    display: block;
+    .promos,
+    .promos2 {
+      width: 100%;
+      height: 50%;
+      background-color: #ef3c51;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      transform: scale(1.3);
+      & img {
+        width: 100%;
+        height: 50%;
+        object-fit: contain;
+      }
+    }
+    .promos {
+      align-items: flex-end;
+      padding-bottom: 40px;
+    }
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

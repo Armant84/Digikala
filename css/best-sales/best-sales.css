@@ -1,0 +1,110 @@
+.best-sales{
+    width: 90%;
+    height: 415px;
+    border: 1px solid #efeff0;
+    border-radius: 15px;
+    margin: 0 auto;
+    .best-sales__1{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        .best-sales__1__1{
+            width: 60%;
+            text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        align-items: center;
+        column-gap: 10px;
+        text-align: left;
+        padding-left: 50px;
+        fill: #F9A825;
+        & p{
+            font-family: var(--fontfamily);
+            font-size: 20px;
+        }
+        }
+        .best-sales__1__2{
+            width: 40%;
+            text-align: left;
+            padding-left: 20px;
+            & a{
+                text-decoration: none;
+            }
+            & p{
+                font-family: var(--fontfamily);
+                font-size: 15px;
+                color: #19BFD3;
+            }
+        }
+    }
+    .best-sales__2{
+        width: 100%;
+        height: 340px;
+        .swiper {
+            width: 100%;
+            height: 100%;
+          }
+      
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .best-sales__2__1{
+                width: 100%;
+                height: 100%;
+                
+                .best-sales__2__1__1{
+                    width: 100%;
+                    height: 33.3%;
+                    & a{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                    flex-flow: row wrap;
+                    align-items: center;
+                    flex-direction: row;
+                    text-decoration: none;
+                    & span{
+                        font-family: var(--Nazanin);
+                        font-size: 34px;
+                        font-weight: bold;
+                        color: #19BFD3;
+                        margin: 0 10px;
+                    }
+                    .best-sales__2__1__1__1{
+                        & img{
+                            all: unset;
+                            width: 90px;
+                            height: 80%;
+                        }
+                    }
+                    .best-sales__2__1__1__2{
+                        width: 60%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-bottom: 1px solid #DDDEDF;
+                        & p{
+                            font-family: var(--fontfamily);
+                            font-size: 13px;
+                            color: black;
+                        }
+                    }
+                    }
+                    
+                }
+            }
+          }
+      
+          
+        
+    }
+}
